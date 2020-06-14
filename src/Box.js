@@ -14,7 +14,7 @@ class Box extends Component {
     pickColor(){
         let newColor;
         do {
-            newColor =  = choice(this.props.allColors)
+            newColor = choice(this.props.allColors)
         } while (newColor === this.state.color)
         this.setState({color: newColor})
     }
